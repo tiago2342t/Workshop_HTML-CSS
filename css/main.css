@@ -1,5 +1,5 @@
 /* Estilos generales */
-* {
+body {
     background-color: #fefcfb;
 }
 
@@ -149,6 +149,12 @@ p {
 
 .slider-btn {
     border: none;
+}
+
+/* Suscripcion */
+.suscripcion {
+    background-color: #FA7436;
+    color: white;
 }
 
 /* Media queries */
