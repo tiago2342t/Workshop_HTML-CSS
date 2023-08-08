@@ -152,9 +152,34 @@ p {
 }
 
 /* Suscripcion */
-.suscripcion {
+#suscripcion {
     background-color: #FA7436;
-    color: white;
+    border-radius: 1rem;
+}
+
+#titulo-suscripcion {
+    color: white; 
+}
+
+#email-field {
+    background-color: white;
+    width: 60%;
+    height: 3.5rem;
+    border-radius: 0.6rem;
+}
+
+#email-input {
+    border: none;
+    color: #999;
+}
+
+#subscribe-btn {
+    border: none;
+    border-radius: 0.5rem;
+    background-color: #FA7436;
+    color: white; 
+    height: 75%;
+    width: 20%;
 }
 
 /* Media queries */
