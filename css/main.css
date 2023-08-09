@@ -49,24 +49,60 @@ footer h5,
     padding: 2.5rem 0 5rem;
 }
 
+.flechas button {
+    background: white;
+    border: 1px solid #666;
+    border-radius: 50%;
+}
+
+.flechas button i {
+    color: #666;
+    font-size: 1.5rem;
+}
+
+.flechas button:hover {
+    background: #fa7436;
+    border: none;
+}
+
+.flechas button:hover i {
+    color: white;
+}
+
+.flechas button:active {
+    background-color: white;
+    border: none;
+}
+
+.flechas button:active i {
+    color: #fa7436;
+}
+
 /* Navbar */
 .navbar-collapse {
     align-items: center;
-    /* justify-content: space-evenly; */
     justify-content: space-between;
 }
 
 #login,
 #sign-up {
     font-weight: 600;
+    padding: 1vh 2vh;
+    width: 7rem;
 }
 
 nav .nav-item {
-    padding: 0.2em 1em;
+    padding: 0.1em 1em;
 }
 
 #login {
     color: #fa7436;
+    border: 1px solid #fa7436;
+}
+
+#login:hover {
+    background-color: #fa7436;
+    color: white;
 }
 
 #sign-up {
@@ -74,7 +110,17 @@ nav .nav-item {
     color: white;
 }
 
+#sign-up:hover {
+    background-color: white;
+    color: #fa7436;
+    border: 1px solid #fa7436;
+}
+
 /* Hero Section */
+#hero-section {
+    padding: 0 0 15vh 0;
+}
+
 #hero-title {
     font-size: 8vh;
 }
@@ -89,6 +135,28 @@ nav .nav-item {
 #boton-hero:hover {
     background-color: #fa7436;
     color: white;
+}
+
+/* Location, date, guest */
+#carta-flotante {
+    background-color: white;
+    border-radius: 1.5vh;
+    border: transparent;
+    box-shadow: 0px 2px 80px 2px rgba(0, 0, 0, 0.06);
+}
+
+#explore-btn {
+    background-color: #fa7436;
+    height: 3.5rem;
+    width: 100%;
+    color: white;
+    border-radius: 5px;
+}
+
+#explore-btn:hover {
+    background-color: white;
+    color: #fa7436;
+    border: 1px solid #fa7436;
 }
 
 /* To do */
@@ -118,21 +186,99 @@ nav .nav-item {
 }
 
 #vacation-plan .card-body {
-    margin: 0.7rem;
+    margin: 0.1rem;
 }
 
-.flechas i {
-    color: #666;
-    font-size: 1.5rem;
+/* Exclusive deals & discounts */
+.discounts-carousel-card {
+    height: 18rem;
+    border-radius: 8px;
+    border: 2px solid rgba(102, 102, 102, 0.08);
+    background: #fefcfb;
+    margin-right: 1rem;
+    margin-left: 1rem;
 }
 
-.flechas button:hover {
+.discounts-carousel-card:hover {
+    box-shadow: 0px 16px 80px 0px rgba(254, 147, 94, 0.2);
+}
+
+.carousel-img:hover {
+    filter: brightness(50%);
+}
+
+.tachado {
+    text-decoration: line-through 2px;
+    color: #999;
+}
+
+.precio {
+    background-color: #ffe7db;
+    color: #fa7436;
+    border-radius: 8px;
+}
+
+.slider-btn {
+    border: none;
+}
+
+/* Blog */
+.blog-card {
+    height: 13rem;
+    border: none !important;
+    border-radius: 8px;
+    background: #fefcfb;
+    margin-inline: 0.5rem;
+}
+
+.blog-date {
+    color: #999;
+}
+
+.blog-img {
+    max-height: 16rem;
+    max-width: 16rem;
+}
+
+.blog-img:hover {
+    filter: brightness(50%);
+}
+
+/* Suscripcion */
+#suscripcion {
     background-color: #fa7436;
-    border: 0;
+    border-radius: 1rem;
 }
 
-.flechas button:hover i {
+#titulo-suscripcion {
     color: white;
+}
+
+#email-field {
+    background-color: white;
+    width: 60%;
+    height: 3.5rem;
+    border-radius: 0.6rem;
+}
+
+#email-input {
+    border: none;
+    color: #999;
+}
+
+#subscribe-btn {
+    border: none;
+    border-radius: 0.5rem;
+    background-color: #fa7436;
+    color: white;
+    height: 75%;
+    width: 20%;
+}
+
+#subscribe-btn:hover {
+    background-color: white;
+    color: #fa7436;
+    border: 1px solid #fa7436;
 }
 
 /* Footer */
