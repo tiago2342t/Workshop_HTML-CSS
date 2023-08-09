@@ -133,7 +133,7 @@ p {
 }
 
 .carousel-img:hover {
-    filter: brightness(50%)
+    filter: brightness(50%);
 }
 
 .tachado {
@@ -149,6 +149,28 @@ p {
 
 .slider-btn {
     border: none;
+}
+
+/* Blog */
+.blog-card {
+    height: 13rem;  
+    border: none !important;
+    border-radius: 8px;
+    background: #FEFCFB;
+    margin-inline: 0.5rem;
+}
+
+.blog-date {
+    color: #999;
+}
+
+.blog-img {
+    max-height: 16rem;
+    max-width: 16rem;
+}
+
+.blog-img:hover {
+    filter: brightness(50%);
 }
 
 /* Suscripcion */
@@ -180,6 +202,11 @@ p {
     color: white; 
     height: 75%;
     width: 20%;
+}
+
+#subscribe-btn:hover {
+    background-color: white;
+    color: #FA7436;
 }
 
 /* Media queries */
